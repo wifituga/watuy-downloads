@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#050505" />
+    <meta
+      name="description"
+      content="Descarga oficial de Watuy, analizador forense de bases SQLite móviles, by wifituga."
+    />
+    <meta name="author" content="wifituga" />
+    <link rel="canonical" href="https://wifituga.github.io/watuy-downloads/" />
+    <link rel="icon" href="assets/watuy-turtle.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Watuy" />
+    <meta property="og:title" content="Watuy — descargas oficiales" />
+    <meta
+      property="og:description"
+      content="Analizador forense de bases SQLite móviles — by wifituga."
+    />
+    <meta
+      property="og:url"
+      content="https://wifituga.github.io/watuy-downloads/"
+    />
+    <title>Watuy — descargas oficiales | by wifituga</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#descarga">Saltar a descargas</a>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Watuy, inicio">
+        <img src="assets/watuy-turtle.svg" alt="" width="34" height="34" />
+        <span class="brand-copy"><b>WATUY</b><small>by wifituga</small></span>
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#descarga">DESCARGAR</a>
+        <a href="#integridad">VERIFICAR</a>
+        <a href="https://github.com/wifituga" rel="me noopener">GITHUB ↗</a>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-mark">
+          <img src="assets/watuy-turtle.svg" alt="" width="152" height="152" />
+        </div>
+        <div class="hero-copy">
+          <div class="kicker">
+            <span class="status-dot"></span> WINDOWS / SQLITE / FORENSICS
+          </div>
+          <h1 id="hero-title">
+            INDAGA.<br />PRESERVA.<br /><span>DOCUMENTA.</span>
+          </h1>
+          <p>
+            Watuy analiza bases SQLite extraídas de dispositivos móviles sin
+            abrir la evidencia original. Trabaja sobre copias verificadas y
+            genera reportes reproducibles.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#descarga"
+              >OBTENER WATUY ↓</a
+            >
+            <span id="hero-version" class="version-label" aria-live="polite"
+              >CARGANDO VERSIÓN…</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="manifesto" aria-label="Principios de Watuy">
+        <span>01 / EVIDENCIA ORIGINAL SOLO LECTURA</span>
+        <span>02 / SHA-256 Y AUDIT LOG</span>
+        <span>03 / HALLAZGOS, NO CONCLUSIONES</span>
+      </section>
+
+      <section
+        id="descarga"
+        class="section download-section"
+        aria-labelledby="download-title"
+      >
+        <div class="section-heading">
+          <p class="section-index">[ 01 ]</p>
+          <div>
+            <p class="eyebrow">ÚLTIMA VERSIÓN ESTABLE</p>
+            <h2 id="download-title">DESCARGA OFICIAL</h2>
+          </div>
+          <div class="release-meta">
+            <b id="release-version">—</b>
+            <span id="release-date">Consultando release…</span>
+          </div>
+        </div>
+
+        <div
+          id="download-grid"
+          class="download-grid"
+          aria-live="polite"
+          aria-busy="true"
+        >
+          <div class="loading-card">CARGANDO ARTEFACTOS VERIFICADOS…</div>
+        </div>
+
+        <noscript>
+          <p class="fallback">
+            JavaScript está desactivado.
+            <a
+              href="https://github.com/wifituga/watuy-downloads/releases/latest"
+              >Abre la release más reciente.</a
+            >
+          </p>
+        </noscript>
+      </section>
+
+      <section
+        id="integridad"
+        class="section integrity-section"
+        aria-labelledby="integrity-title"
+      >
+        <div class="section-heading compact">
+          <p class="section-index">[ 02 ]</p>
+          <div>
+            <p class="eyebrow">ANTES DE EJECUTAR</p>
+            <h2 id="integrity-title">VERIFICA LA INTEGRIDAD</h2>
+          </div>
+        </div>
+        <div class="integrity-grid">
+          <article>
+            <span class="pixel-icon">#</span>
+            <h3>SHA-256</h3>
+            <p>
+              Compara el hash del instalador con el valor publicado junto al
+              archivo.
+            </p>
+            <code>Get-FileHash .\Watuy_*.exe -Algorithm SHA256</code>
+          </article>
+          <article>
+            <span class="pixel-icon">✓</span>
+            <h3>UPDATER FIRMADO</h3>
+            <p>
+              Las actualizaciones automáticas requieren una firma válida antes
+              de instalarse.
+            </p>
+          </article>
+          <article>
+            <span class="pixel-icon">!</span>
+            <h3>CONTEXTO FORENSE</h3>
+            <p>
+              Watuy es una herramienta de apoyo. Sus resultados requieren
+              revisión profesional.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <img src="assets/watuy-turtle.svg" alt="" width="42" height="42" />
+        <div><b>WATUY</b><span>by wifituga</span></div>
+      </div>
+      <p>© 2026 wifituga · DESCARGAS OFICIALES</p>
+      <a
+        href="https://github.com/wifituga/watuy-downloads/releases/latest"
+        rel="noopener"
+        >RELEASE ACTUAL ↗</a
+      >
+    </footer>
+  </body>
+</html>

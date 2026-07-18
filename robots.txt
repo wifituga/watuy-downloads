@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wifituga.github.io/watuy-downloads/sitemap.xml
