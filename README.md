@@ -2,6 +2,7 @@
 
 Sitio público de descargas de **Watuy**, by **wifituga**.
 
+- Portal de herramientas: https://wifituga.github.io/
 - Web: https://wifituga.github.io/watuy-downloads/
 - Release actual: https://github.com/wifituga/watuy-downloads/releases/latest
 - Updater: https://wifituga.github.io/watuy-downloads/watuy/latest.json
